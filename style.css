@@ -1,0 +1,88 @@
+
+body {
+    background-color: #EAF2F8;
+}
+h1 {
+	background-image:  url("field.jpg");
+	background-repeat: no repeat;
+	height: 80px; width: 650px; font-size; 3em;
+	padding-top: 80px; padding-left: 80px; padding-right: 80px;
+	border: 2px solid #000033;
+	border-radius: 15px;
+    color: white;
+    font-family: Verdana;
+    font-size: 300%;
+	margin: auto;
+}
+p  {
+    color: 2D084A;
+    font-family: Verdana;
+    font-size: 120%;
+}
+
+legend{ font-family: Times-New-Roman, serif;
+		font-weight: bold;
+	  }
+label { font-family: Times-New-Roman, serif;
+		font-weight: bold;
+	  }
+option label { font-family: Times-New-Roman, serif;
+		font-size: medium;
+	  }
+
+
+h4 {
+	padding: 5px;
+    margin: 5px;
+	 font-family: Verdana;
+	 font-weight: bold;
+	 font-size: 150%;
+}
+ol li {
+    padding: 5px;
+    margin-left: 35px;
+	 font-family: Verdana;
+}
+
+ul li {
+	padding: 5px;
+    margin: 5px;
+	 font-family: Verdana;
+	 
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	border: 1px solid #e7e7e7;
+}
+
+nav li {
+    float: left;
+
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+{
+.center {
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	

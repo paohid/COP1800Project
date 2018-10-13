@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="recipes.html">Recipes</a></li>
+<li><a href="moreinfo.html">More</a></li>
+<li><a href="contactus.html">Contact Us</a></li><br>
+<link rel="stylesheet" href="style.css">
+</ul>
+</nav><br><br>	
+<head>
+<title>City</title>
+<meta charset=utf-8">
+<style>
+input {display: block;
+	   margin-bottom: 1em;
+}
+label { float: left;
+		width: 5em;
+		padding-right: 1em;
+		text-align: right;
+}
+#submit { margin-left: 7em; }
+</style>
+<script>
+function validateForm() {
+if (document.forms[0].userName.value == "") {
+    alert("Name field cannot be empty.");
+	return false;
+} //end if
+if (document.forms[0].userLastName.value == "") {
+    alert("Last Name field cannot be empty.");
+    return false;
+} // end if
+if (document.forms[0].userEmail.value == "") {
+    alert("Email field cannot be empty.");
+    return false;
+} // end if
+alert ("Name, Last Name and Email are valid..");
+return true;
+} //end function validateForm
+</script>
+</head>
+<body>
+<h2>Email Us For More Information</h2>
+<form method="post"
+	  action="http://webdevbasics.net/scripts/demo.php"
+	  onsubmit="return validateForm();">
+<label for="userName">Name: </label>
+<input type="text" name="userName" id="userName">
+<label for="userLastName">Last Name: </label>
+<input type="text" name="userLastName" id="userLastName">
+<label for="userEmail">Email: </label>
+<input type="text" name="userEmail" id="userEmail">
+<input type="submit" value="Send information" id="submit">
+<br>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+Enter message here...</textarea>
+</form>
+</body>
+</html> 	  
